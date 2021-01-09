@@ -1,5 +1,5 @@
 module.exports = {
-    apiKey: 'APPLITOOLS_API_KEY',
+    apiKey: process.env.APPLITOOLS_API_KEY || 'your APPLITOOLS_API_KEY',
     //
     browser: [
         // Add browsers with different viewports
@@ -13,5 +13,7 @@ module.exports = {
         {deviceName: 'Pixel 2', screenOrientation: 'portrait'}
     ],
     // set batch name to the configuration
-    batchName: 'Ultrafast Batch'
+    batchName: 'Ultrafast Batch',
+    // specify Eyes concurrency level
+    testConcurrency: 1,
 }
