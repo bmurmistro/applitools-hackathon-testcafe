@@ -1,21 +1,15 @@
-### Pre-requisites:
-1. Install Node.js from [here](https://nodejs.org/en/)
+# Applitools Tutorial - TestCafe
 
-### Running the example:
-1. Download the example
-    * Option 1: `git clone https://github.com/applitools/tutorial-testcafe.git`
-    * Option 2: Download it as a Zip file and extract it
-2. CD into the `tutorial-testcafe` folder
-3. Change the `APPLITOOLS_API_KEY` with your own (apiKey configuration property of the applitools.config.js file).
-    * Login to Applitools > Click on the Person icon > My API Key
-4. run `npm install`
-5. run `npm test`
+Get started with Applitools Eyes visual testing with this example of using the [TestCafe](https://www.cypress.io/) and the [Eyes TestCafe SDK](https://www.npmjs.com/package/@applitools/eyes-testcafe).
 
-### Tetscafe tutorial
+Learn more about how to install and start this project with our [TestCafe tutorial](https://applitools.com/tutorials/testcafe.html)!
 
-Please see https://applitools.com/tutorials/testcafe.html for all the details.
+<https://applitools.com/tutorials/testcafe.html>
 
-### NPM docs
-The following NPM docs contains all the update information for this SDK
-https://www.npmjs.com/package/@applitools/eyes-testcafe#Best-practice-for-using-the-SDK
 
+## More Information
+
+Learn more about Applitools [Eyes](https://info.applitools.com/ucY77) and the [Ultrafast Test Cloud](https://info.applitools.com/ucY78) at [applitools.com](https://info.applitools.com/ucY76).
+
+More about the Eyes TestCafe SDK:
+* https://www.npmjs.com/package/@applitools/eyes-testcafe
