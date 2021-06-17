@@ -23,8 +23,8 @@ test('ultraFastTest', async t => {
     // Call Open on eyes to initialize a test session
     await eyes.open({
         t, // pass testcafe contorller
-        appName: 'Demo App',
-        testName: 'Ultrafast grid demo',
+        appName: 'Demo App - Testcafe - Ultrafast',
+        testName: 'Smoke Test - Testcafe - Ultrafast',
     });
 
     // check the login page with fluent api, see more info here
