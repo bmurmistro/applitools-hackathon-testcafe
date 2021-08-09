@@ -4,12 +4,18 @@
   "description": "Applitools Testcafe example",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome:headless ./tests/*"
+    "TraditionalSuiteV1": "cross-env-shell BASE_URL=https://demo.applitools.com/hackathon.html \"testcafe chrome:headless ./tests/TraditionalSuite.js\"",
+    "TraditionalSuiteV2": "cross-env-shell BASE_URL=https://demo.applitools.com/hackathonV2.html \"testcafe chrome:headless ./tests/TraditionalSuite.js\"",
+    "VisualAITestSolutionV1": "cross-env-shell BASE_URL=https://demo.applitools.com/hackathon.html \"testcafe chrome:headless ./tests/VisualAITestSolution.js\"",
+    "VisualAITestSolutionV2": "cross-env-shell BASE_URL=https://demo.applitools.com/hackathonV2.html \"testcafe chrome:headless ./tests/VisualAITestSolution.js\"",
+    "VisualAITestV1": "cross-env-shell BASE_URL=https://demo.applitools.com/hackathon.html \"testcafe chrome:headless ./tests/VisualAITest.js\"",
+    "VisualAITestV2": "cross-env-shell BASE_URL=https://demo.applitools.com/hackathonV2.html \"testcafe chrome:headless ./tests/VisualAITest.js\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@applitools/eyes-testcafe": "^1.14.3",
+    "@applitools/eyes-testcafe": "1.14.3",
+    "cross-env": "^7.0.3",
     "testcafe": "^1.15.1"
   }
 }

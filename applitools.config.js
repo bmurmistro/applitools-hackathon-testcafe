@@ -1,6 +1,7 @@
 module.exports = {
     apiKey: process.env.APPLITOOLS_API_KEY || 'your APPLITOOLS_API_KEY',
-    //
+    batchName: '[Team Name] Testcafe Batch',
+    appName: '[Team Name] Testcafe App',
     browser: [
         // Add browsers with different viewports
         {width: 800, height: 600, name: 'chrome'},
@@ -12,8 +13,6 @@ module.exports = {
         {deviceName: 'iPhone X', screenOrientation: 'portrait'},
         {deviceName: 'Pixel 2', screenOrientation: 'portrait'}
     ],
-    // set batch name to the configuration
-    batchName: 'Ultrafast Batch',
     // specify Eyes concurrency level
-    testConcurrency: 1,
+    testConcurrency: 30
 }
