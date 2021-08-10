@@ -4,7 +4,6 @@ import { ClientFunction, Selector } from 'testcafe';
 import Eyes from '@applitools/eyes-testcafe';
 const baseUrl = process.env.BASE_URL;
 const {appName} = require('../applitools.config.js')
-const batchId = `bid_${String(Math.random()).slice(2)}`;
 
 // Initialize the eyes
 const eyes = new Eyes();
@@ -14,7 +13,6 @@ fixture`${appName}`
     .page(baseUrl)
     .beforeEach( async t => {
         await eyes.open({
-            batchId,
             t, // pass testcafe controller
             // we are getting this from the applitools.config.js
             //appName: 'Demo App - Testcafe - Ultrafast' ,

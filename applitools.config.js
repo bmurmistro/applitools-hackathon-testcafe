@@ -1,7 +1,9 @@
+const batchId = `bid_${String(Math.random()).slice(2)}`;
 module.exports = {
     apiKey: process.env.APPLITOOLS_API_KEY || 'your APPLITOOLS_API_KEY',
     batchName: '[Team Name] Testcafe Batch',
     appName: '[Team Name] Testcafe App',
+    batchId,
     browser: [
         // Add browsers with different viewports
         {width: 800, height: 600, name: 'chrome'},
