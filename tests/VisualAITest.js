@@ -15,7 +15,7 @@ fixture`${appName}`
     .beforeEach( async t => {
         await eyes.open({
             batchId,
-            t, // pass testcafe contorller
+            t, // pass testcafe controller
             // we are getting this from the applitools.config.js
             //appName: 'Demo App - Testcafe - Ultrafast' ,
             testName: t.testRun.test.name,
