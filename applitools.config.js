@@ -3,6 +3,7 @@ module.exports = {
     apiKey: process.env.APPLITOOLS_API_KEY || 'your APPLITOOLS_API_KEY',
     batchName: '[Team Name] Testcafe Batch',
     appName: '[Team Name] Testcafe App',
+    //serverUrl: 'https://walmarteyes.applitools.com',
     batchId,
     browser: [
         // Add browsers with different viewports

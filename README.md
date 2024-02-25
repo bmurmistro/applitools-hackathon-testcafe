@@ -7,7 +7,7 @@ To view the Applitools Testcafe SDK click [here](https://www.npmjs.com/package/@
     -  Option 2:  Download it as a Zip file and extract it
 3.  Navigate to the recently cloned folder applitools-hackathon-testcafe
     -  run `npm install`
-4.  If you don't have an account with Applitools, register and [create an account](https://auth.applitools.com/users/register)
+4.  If you don't have an account with Applitools on https://walmarteyes.applitools.com please reach out to brandon.murray@applitools.com
 5.  Ensure you have your Applitools API Key! Set it in applitools.config.js. 
 6.  Set your batch name in (applitools.config.js) to include your breakout team name. Can be the Team Leader's name if you don't think of anything. If you want to follow along on your own, simply put use your name.
 7.  Set your App name (applitools.config.js) to the same team name. 
